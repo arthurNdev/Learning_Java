@@ -5,7 +5,7 @@ import entities.Triangle;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Poo {
+public class Poo1 {
 
     public static void main(String[] args) {
 
