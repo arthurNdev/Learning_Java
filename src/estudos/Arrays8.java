@@ -31,5 +31,6 @@ public class Arrays8 {
             System.out.println(arrayA[i] + arrayB[i]);
         }
 
+        sc.close();
     }
 }
