@@ -2,7 +2,7 @@ package entities;
 
 public class ClientBank {
 
-    private String name;
+    private final String name;
     private final int accountNumber;
     private double totalInAccount;
 
@@ -20,18 +20,6 @@ public class ClientBank {
 
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public double getTotalInAccount() {
-        return totalInAccount;
-    }
-
-    public int getAccountNumber() {
-        return accountNumber;
     }
 
     public void deposit(double amount) {
