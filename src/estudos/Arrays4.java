@@ -19,11 +19,15 @@ public class Arrays4 {
 
         System.out.println("Os números pares digitados foram:");
 
+        int pares = 0;
         for (int i=0; i<n; i++) {
             if (numbers[i] % 2 == 0) {
                 System.out.println(numbers[i]);
+                pares++;
             }
         }
+        System.out.println();
+        System.out.printf("QUANTIDADE DE PARES = %d", pares);
 
         sc.close();
     }
