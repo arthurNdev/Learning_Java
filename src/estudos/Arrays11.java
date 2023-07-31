@@ -14,9 +14,6 @@ public class Arrays11 {
         String[] names = new String[n];
         int[] ages = new int[n];
 
-        int maisVelhoAge = 0;
-        String maisVelhoName = names[0];
-
         for (int i=0; i<n; i++) {
             System.out.println("Dados da " + (i+1) + "a pessoa:");
             System.out.print("Nome: ");
@@ -24,13 +21,19 @@ public class Arrays11 {
             names[i] = sc.nextLine();
             System.out.print("Idade: ");
             ages[i] = sc.nextInt();
+        }
+
+        int posMaisVelho = 0;
+        int maisVelhoAge = ages[0];
+
+        for (int i=0; i<n; i++) {
             if (ages[i] > maisVelhoAge) {
-                maisVelhoName = names[i];
                 maisVelhoAge = ages[i];
+                posMaisVelho = i;
             }
         }
 
-        System.out.printf("PESSOA MAIS VELHA: %s", maisVelhoName);
+        System.out.printf("PESSOA MAIS VELHA: %s", names[posMaisVelho]);
 
         sc.close();
     }
