@@ -2,7 +2,7 @@ package estudos;
 
 import java.util.Scanner;
 
-public class Ex4 {
+public class Basics4 {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package estudos;
 
-public class Ex7 {
+public class Basics7 {
 
     public static void main(String[] args) {
 
