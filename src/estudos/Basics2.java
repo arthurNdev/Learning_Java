@@ -8,7 +8,7 @@ public class Basics2 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite um número");
+        System.out.print("Digite um número: ");
         int num = sc.nextInt();
         for (int i = 1; i <= num; i++) {
             if (i % 2 != 0) {
