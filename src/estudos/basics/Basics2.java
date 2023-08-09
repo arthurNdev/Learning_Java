@@ -1,4 +1,4 @@
-package estudos;
+package estudos.basics;
 
 import java.util.Scanner;
 

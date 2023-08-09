@@ -1,4 +1,4 @@
-package estudos;
+package estudos.poo;
 
 import entities.ClientBank;
 
